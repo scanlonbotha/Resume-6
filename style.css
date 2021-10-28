@@ -1,0 +1,140 @@
+body{
+    font-family: arial;
+    font-size: 110%;
+    background-color: white;
+}
+
+
+#heading{
+
+    font-family: sans-serif;
+    background-color: teal;
+    color:white;
+    text-align: center;
+    padding: 50px;
+    background-image: url("/Images/dark\ blue.jpeg")
+    
+
+}
+
+#headshot{
+    width: 15%;
+    height: 15%;
+    padding: 1rem;
+}
+
+#content {
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#sidebar {
+    width: 20%;
+    padding: 1rem;
+    background-color: darkslategray;
+    list-style-type: none;
+    color:white;
+}
+
+.subtitle{
+    color:white;
+
+}
+
+
+#content{
+    width: 80%;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #343330;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+
+
+#page {
+    display : flex ;
+}
+
+#image{
+    border: 3px solid black;
+    width: 30%;
+    
+    
+}
+
+.icons-image {
+    padding: 10px;
+    
+}
+
+@media only screen and (max-width:600px) { #sidebar { width: 20%;
+    padding: 1rem;
+    background-color: darkslategray;
+    list-style-type: none;
+    color:white;}
+    
+    
+}
+
+@media only screen and (min-width:600px) { #sidebar {
+    width: 20%;
+    padding: 1.5rem;
+    background-color: darkslategray;
+    list-style-type: none;
+    color:white;
+}
+    
+}
+@media only screen and (min-width:768px) {#sidebar {
+    width: 20%;
+    padding: 2rem;
+    background-color: darkslategray;
+    list-style-type: none;
+    color:white;
+}
+    
+}
+
+@media only screen and (min-width:992px) {#sidebar {
+    width: 20%;
+    padding: 4rem;
+    background-color: darkslategray;
+    list-style-type: none;
+    color:white;
+}
+.navbar{
+    color: black;
+}
+    
+}
+.carousel{
+    width: 50%;
+    display: block;
+    padding: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: 30%;
+}
+.card{
+    background-color: lightgrey;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
